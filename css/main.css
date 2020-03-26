@@ -1,0 +1,73 @@
+body{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', ;
+	overflow-x: hidden;
+}
+
+ul{
+	display:flex;
+	list-style-type: none;
+	font-size: 16px;
+	justify-content: flex-end;
+	margin: 0px;
+}
+li{
+	margin: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+li a {
+	color: white;
+	text-decoration: none;
+}
+
+li a:hover{
+	color: white;
+	text-decoration: underline;
+}
+#title{
+	background-color: rgba(0, 0, 0, 0.53);
+	margin-right: auto;
+}
+
+#showcase{
+	background-image: url(../images/pancakes.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 70vh;
+
+}
+
+.container1{
+	background-color: rgba(0, 0, 0, 0.53);
+	background-size: contain;
+	min-height: 70vh;
+}
+
+.header-text{
+	font-weight: lighter;
+}
+
+.comment-image{
+	background-image: url(../images/glasses.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 50vh;
+}
+#comment p{
+	text-align: center;
+}
+
+#footer{
+	background-image: url(../images/piccata.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 50vh;
+}
+
+.container2{
+	background-color: rgba(0, 0, 0, 0.53);
+	background-size: contain;
+	min-height: 50vh;
+}
